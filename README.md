@@ -27,17 +27,17 @@ Light/Dark Mode App revolutionizes your digital experience by offering the flexi
 
 Overall, Light/Dark Mode Apps aim to provide users with a more customizable and comfortable digital experience, catering to individual preferences and promoting usability in various lighting conditions.
 
-### Overview
+## Overview
 Light/Dark Mode Apps offer users the ability to switch between light and dark themes, adapting the display to varying lighting conditions and personal preferences. They reduce eye strain, conserve battery life on certain screen types, and often include accessibility features to enhance readability for all users.
 
-### Key Features
+## Key Features
 1. **Customizable Themes:** Light/Dark Mode Apps allow users to switch between light and dark themes, and sometimes offer additional customization options such as adjusting brightness levels and color schemes.
 2. **Eye Strain Reduction:** Dark Mode helps reduce eye strain, particularly in low-light conditions, by providing a darker background with lighter text, which can be easier on the eyes during prolonged device usage.
 3. **Battery Conservation:** In OLED and AMOLED screens, Dark Mode can contribute to battery conservation by turning off black pixels, thus consuming less power compared to bright themes, which require more energy to display.
 
 
-### Usage
-TWelcome to the Light/Dark Mode App! This guide will walk you through the steps to effectively use the app's features and customize your viewing experience.
+## Usage
+Welcome to the Light/Dark Mode App! This guide will walk you through the steps to effectively use the app's features and customize your viewing experience.
 Getting Started:
 1. **Download and Installation:**
 > Clone or download the Light/Dark Mode App repository from GitHub to your local machine.
@@ -61,10 +61,23 @@ Congratulations! You have successfully learned how to use the Light/Dark Mode Ap
 
 Feel free to provide feedback, suggestions, or contribute to the project on GitHub to help improve the app for all users.
 
-### Benefits
+## Troubleshooting:
+
+### Detected Issue:
+The scroll-behavior: smooth; property does not inherently apply to the body element, resulting in the absence of smooth scrolling behavior throughout the entire document.
+
+### Problem:
+The scroll-behavior: smooth; property doesn't apply to the body element by default, preventing smooth scrolling behavior across the entire document.
+
+### Solution:
+To enable smooth scrolling across the document, JavaScript can be utilized. Event listeners can be added to links or interactive elements, intercepting the default behavior and triggering 
+smooth scrolling to the desired destination within the document using the window.scrollTo method with the behavior: 'smooth' option. This allows for a smooth and visually pleasing 
+scrolling experience for users.
+
+## Benefits
 Light/Dark Mode Apps reduce eye strain by minimizing blue light exposure, enhance readability with higher text contrast, and conserve battery life on OLED/AMOLED screens. They offer customizable themes for personalized experiences, making content more accessible to users with visual impairments. Additionally, the sleek aesthetic of Dark Mode enhances user satisfaction and creates a modern interface design.
 
-### Implementing Light/Dark Mode in Your Frontend Application: A Guide for GitHub Users
+## Implementing Light/Dark Mode in Your Frontend Application: A Guide for GitHub Users
 The application is implemented using HTML, CSS, and JavaScript to enable its functionality within a web browser. Here's a brief overview of the implementation:
 
 **Introduction:**
@@ -81,10 +94,10 @@ As frontend developers, we strive to enhance user experience and accessibility i
 3. **Storage and Persistence:** Consider using local storage or cookies to store user preferences for Light/Dark Mode, ensuring that their chosen theme persists across sessions and visits to your application.
 
 
-### Integration
+## Integration
 For GitHub users, especially frontend developers, integrating Light/Dark Mode functionality into applications offers enhanced user experience and accessibility. Frontend developers can leverage CSS variables or preprocessors like Sass to define theme-specific stylesheets and seamlessly switch between light and dark themes. Additionally, they can utilize JavaScript frameworks like React or Vue.js to dynamically update the UI based on user preferences or system settings, ensuring a smooth and responsive transition between modes. With proper documentation and version control through GitHub, developers can collaborate effectively and iteratively improve the Light/Dark Mode integration to meet user needs and preferences.
 
-### Conclusion
+## Conclusion
 Incorporating Light/Dark Mode functionality into your frontend applications not only enhances user experience and accessibility but also showcases your commitment to providing a modern and customizable interface. By following these implementation strategies, you can empower users to tailor their viewing experience while improving engagement and satisfaction with your application.
 
 Remember to document your implementation process and encourage collaboration and feedback from the GitHub community to further enhance the usability and effectiveness of Light/Dark Mode in your frontend projects.
