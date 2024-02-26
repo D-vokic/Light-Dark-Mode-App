@@ -5,7 +5,7 @@
 ## Illuminate Your Experience: Introducing Light/Dark Mode App!
 
 ![Light/Dark Mode App Preview](screenshot.png)
-You can check it out [here]( ).
+You can check it out [here](https://d-vokic.github.io/Light-Dark-Mode-App/).
 
 ## Author
 
