@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script|Oswald&display=swap");
+@import "./variables.css";
+@import "./default.css";
+@import "./navigation.css";
+@import "./home.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./contact.css";
+@import "./darkModeToggle.css";
+@import "./mediaQueries.css";
